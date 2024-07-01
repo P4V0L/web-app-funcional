@@ -96,25 +96,35 @@ body {
     }
 }
 
-.character-link {
-    color: white;
-    text-decoration: none;
-    background: #007bff;
-    padding: 5px 10px;
-    border-radius: 5px;
-}
-
-.book-link {
-    color: white;
-    text-decoration: none;
-    background: #007bff;
-    padding: 5px 10px;
-    border-radius: 5px;
-}
-
 .profile-photo {
     width: 40px;
     height: 40px;
     border-radius: 50%;
     object-fit: cover;
 }
+
+.character-link {
+    color: white;
+    background-color: #007bff;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.character-link:hover {
+    background-color: #0056b3;
+    color: white;
+
+}
+
+.book-link {
+    color: white;
+    background-color: #28a745;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.book-link:hover {
+    background-color: #218838;
+    color: white;
+}
+

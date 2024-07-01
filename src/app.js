@@ -139,9 +139,9 @@ function displayBooks(books) {
         bookTitle.textContent = book.title;
 
         const bookLink = document.createElement('a');
-        bookLink.classList.add('book-link');
+        bookLink.classList.add('book-link')
         bookLink.href = `book-details.html?index=${index}`;
-        bookLink.textContent = 'Detalles';
+        bookLink.textContent = 'View Details';
 
         bookItem.appendChild(bookCover);
         bookItem.appendChild(bookTitle);
@@ -178,9 +178,9 @@ function displayCharacters(characters) {
         characterName.textContent = character.fullName;
 
         const characterLink = document.createElement('a');
-        characterLink.classList.add('character-link');
+        characterLink.classList.add('character-link')
         characterLink.href = `character-details.html?index=${index}`;
-        characterLink.textContent = 'Detalles';
+        characterLink.textContent = 'View Details';
 
         characterItem.appendChild(characterImage);
         characterItem.appendChild(characterName);

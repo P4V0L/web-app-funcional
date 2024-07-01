@@ -9,7 +9,6 @@
 - [Uso](#uso)
 - [Endpoints de la API](#endpoints-de-la-api)
 - [Autores](#autores)
-- [Licencia](#licencia)
 
 ## Introducción
 
@@ -102,3 +101,6 @@ fetch('https://potterapi-fedeperin.vercel.app/es/characters')
 
 - **Rossy Adrianny García Orocua**: [Perfil de GitHub](https://github.com/Roadgar)
 - **Pablo Montón Gimeno**: [Perfil de GitHub](https://github.com/P4V0L)
+=======
+# web-app-funcional
+>>>>>>> parent of 6fb9caf (fix: fixes + readme)
